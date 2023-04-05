@@ -1,7 +1,7 @@
 import { Row, Col } from "react-bootstrap"
 
 // 반복되는 아이템 컴포넌트 !
-const ContactItem = () => {
+const ContactItem = ({item}) => {
     
     return ( 
         <Row>
@@ -12,11 +12,11 @@ const ContactItem = () => {
 
             <Col lg={8}>
                 <div>
-                    박종헌
+                    {item.name}
                 </div>
 
                 <div>
-                    01041331692
+                    {item.phoneNumber}
                 </div>
             </Col>
         </Row>
