@@ -1,3 +1,4 @@
 기존의 리덕스는 비동기 요청을 할 수 없음(동기적인 요청만 가능함)
 
 그것을 보완한 것이 redux-middleware
+redux-thunk
