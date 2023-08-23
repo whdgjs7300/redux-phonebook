@@ -25,7 +25,7 @@ const ContactList = () => {
             <div>
                 num: {filteredList.length}
             {
-                filteredList.map(item => <ContactItem item={item}/>)
+                filteredList.map((item) => <ContactItem item3={item}/>)
             }
             </div>
             
